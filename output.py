@@ -9,8 +9,6 @@ else:
 
 print('Click to close')
 
-root = Tk.Tk()      # or 'top'
-
-L2 = Tk.Label(root, text = 'This is another label')
+root = Tk.Tk()      # top
 L2.pack()
 root.mainloop()
