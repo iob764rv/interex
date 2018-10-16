@@ -9,6 +9,10 @@ else:
 
 print('Click to close')
 string="String" #string displayed after click
+def entryinformation():
+    #
+    L2.config(text=string.get())
+	
 root = Tk.Tk()      # top
 L2 = Tk.Label(root, text = string)
 L2.pack()
