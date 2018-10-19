@@ -16,4 +16,8 @@ def entryinformation():
 root = Tk.Tk()      # top
 L2 = Tk.Label(root, text = string)
 L2.pack()
+
+B1 = Tk.Button(root, text = 'Button', command = entryinformation)
+B1.pack(side = Tk.BOTTOM)
+
 root.mainloop()
