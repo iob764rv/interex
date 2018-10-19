@@ -25,5 +25,7 @@ string = Tk.StringVar()
 E1 = Tk.Entry(root, textvariable = string)
 E1.pack()
 
+S1 = Tk.Scale(root, orient=HORIZONTAL, from_=1, to=10,)
+S1.pack()
 
 root.mainloop()
