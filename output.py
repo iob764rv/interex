@@ -20,4 +20,10 @@ L2.pack()
 B1 = Tk.Button(root, text = 'Button', command = entryinformation)
 B1.pack(side = Tk.BOTTOM)
 
+#Entry
+string = Tk.StringVar()
+E1 = Tk.Entry(root, textvariable = string)
+E1.pack()
+
+
 root.mainloop()
