@@ -33,6 +33,7 @@ S1 = Tk.Scale(root, orient=HORIZONTAL, from_=1, to=10,)
 S1.pack()
 
 ist=ListBox(root)
+ist.pack()
 
 
 root.mainloop()
