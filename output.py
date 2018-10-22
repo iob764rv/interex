@@ -6,6 +6,8 @@ if sys.version_info[0] < 3:
 	import Tkinter as Tk 	# for Python 2
 else:
 	import tkinter as Tk   	# for Python 3
+	from tkinter import HORIZONTAL
+	from tkinter import Listbox
 
 print('Click to close')
 string="String" #string displayed after click
