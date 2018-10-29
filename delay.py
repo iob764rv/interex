@@ -12,3 +12,7 @@ DURATION  = 10
 
 TotalBlocks = int( DURATION * RATE / BLOCKSIZE )
 output_block = [0 for i in range(0, BLOCKSIZE)]
+
+output_block = [0 for i in range(0, BLOCKSIZE)]
+SECONDS = 10
+blocksrate = int(RATE / BLOCKSIZE * SECONDS)
