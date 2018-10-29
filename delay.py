@@ -16,3 +16,7 @@ output_block = [0 for i in range(0, BLOCKSIZE)]
 output_block = [0 for i in range(0, BLOCKSIZE)]
 SECONDS = 10
 blocksrate = int(RATE / BLOCKSIZE * SECONDS)
+
+p = pyaudio.PyAudio()
+PA_FORMAT = p.get_format_from_width(WIDTH)
+
