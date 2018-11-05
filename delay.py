@@ -32,9 +32,4 @@ for i in range(0, num_blocks):
     # input frames
     input_string = stream.read(BLOCKSIZE, exception_on_overflow = False)   # BLOCKSIZE = number of frames read
      input_tuple = struct.unpack('h' * BLOCKSIZE, input_string)
-    ##add chart
-  #  X = np.fft.fft(input_tuple)
-
-       # linea.set_ydata(abs(X))
- 
     # Go through block
