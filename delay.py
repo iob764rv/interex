@@ -20,3 +20,9 @@ blocksrate = int(RATE / BLOCKSIZE * SECONDS)
 p = pyaudio.PyAudio()
 PA_FORMAT = p.get_format_from_width(WIDTH)
 
+stream = p.open(
+    format    = PA_FORMAT,
+    channels  = CHANNELS,
+    rate      = RATE,
+    input     = True,
+    output    = True)
