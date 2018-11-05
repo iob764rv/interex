@@ -33,3 +33,5 @@ for i in range(0, num_blocks):
     input_string = stream.read(BLOCKSIZE, exception_on_overflow = False)   # BLOCKSIZE = number of frames read
      input_tuple = struct.unpack('h' * BLOCKSIZE, input_string)
     # Go through block
+    for n in range(0, 1024):
+        print("loop 2")
