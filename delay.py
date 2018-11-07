@@ -27,7 +27,7 @@ stream = p.open(
     input     = True,
     output    = True)
 
-for i in range(0, num_blocks):
+for i in range(0, TotalBlocks):
 
     # input frames
     input_string = stream.read(BLOCKSIZE, exception_on_overflow = False)   # BLOCKSIZE = number of frames read
