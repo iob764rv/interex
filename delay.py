@@ -35,8 +35,6 @@ for i in range(0, TotalBlocks):
     # Go through block
     for n in range(0, 1024):
         print("loop 2")
-        input_string = stream.read(BLOCKSIZE, exception_on_overflow = False)
-        input_tuple = struct.unpack('h' * BLOCKSIZE, input_string)   
         #chart
          point = np.fft.fft(input_tuple)
 
