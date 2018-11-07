@@ -34,5 +34,5 @@ for i in range(0, TotalBlocks):
      input_tuple = struct.unpack('h' * BLOCKSIZE, input_string)
     # Go through block
     for n in range(0, 1024):
-        #chart
+        #mod
         output_block[n] = int( input_tuple[n] * -1 )
