@@ -38,3 +38,7 @@ for i in range(0, TotalBlocks):
         input_string = stream.read(BLOCKSIZE, exception_on_overflow = False)
         input_tuple = struct.unpack('h' * BLOCKSIZE, input_string)   
         #chart
+         point = np.fft.fft(input_tuple)
+
+        # Update y-data of plot
+        linea.set_ydata(abs(point))
