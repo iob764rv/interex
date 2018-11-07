@@ -34,9 +34,5 @@ for i in range(0, TotalBlocks):
      input_tuple = struct.unpack('h' * BLOCKSIZE, input_string)
     # Go through block
     for n in range(0, 1024):
-        print("loop 2")
         #chart
-         point = np.fft.fft(input_tuple)
-
-        # Update y-data of plot
-        linea.set_ydata(abs(point))
+        output_block[n] = int( input_tuple[n] * 1 )
