@@ -35,4 +35,5 @@ for i in range(0, TotalBlocks):
     # Go through block
     for n in range(0, 1024):
         #mod
-        output_block[n] = int( input_tuple[n] * -1 )
+        
+output_string = struct.pack('h' * BLOCKSIZE, *output_block)
