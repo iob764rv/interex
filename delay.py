@@ -38,3 +38,6 @@ for i in range(0, TotalBlocks):
         output_string = struct.pack('h' * BLOCKSIZE, *output_block)
 #Output
 output_string = struct.pack('h' * BLOCKSIZE, *output_block)
+
+stream.stop_stream()
+stream.close()
