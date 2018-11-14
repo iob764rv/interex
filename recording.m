@@ -13,3 +13,4 @@ subplot(2, 1, 1)
 plot(t, x)
 xlabel('Time (sec)')
 title('x(t)   [SIGNAL]')
+% outline
