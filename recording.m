@@ -5,3 +5,11 @@ t = n/fs;
 
 x = v(1660 + n)';
 
+figure(1)
+
+%% Plot in center 
+
+subplot(2, 1, 1)
+plot(t, x)
+xlabel('Time (sec)')
+title('x(t)   [SIGNAL]')
