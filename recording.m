@@ -15,3 +15,11 @@ plot(t, x)
 xlabel('Time (sec)')
 title('x(t)   [SIGNAL]')
 % outline
+
+[r11_max, k] = max(r11);
+
+lag_max = k - M
+
+hold on
+plot(lag_max, r11_max, 'ro')
+grid on
