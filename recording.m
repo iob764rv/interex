@@ -23,3 +23,4 @@ lag_max = k - M
 hold on
 plot(lag_max, r11_max, 'ro')
 grid on
+xlim([-4 4])
