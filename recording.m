@@ -4,8 +4,7 @@ n = 0:N-1;
 t = n/fs;
 
 x = v(1660 + n)';
-
-[x, fs] = audioread('input.wav');
+xlabel('Time (seconds)')
 
 figure(1)
 
