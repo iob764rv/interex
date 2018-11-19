@@ -5,6 +5,8 @@ t = n/fs;
 
 x = v(1660 + n)';
 
+[x, fs] = audioread('input.wav');
+
 figure(1)
 
 %% Plot in center 
