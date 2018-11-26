@@ -35,5 +35,4 @@ S1.pack()
 ist=ListBox(root)
 ist.pack()
 
-
 root.mainloop()
