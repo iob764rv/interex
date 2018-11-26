@@ -15,7 +15,6 @@ plot(t, x)
 xlabel('Time (sec)')
 title('x(t)   [SIGNAL]')
 % outline
-
 [r11_max, k] = max(r11);
 
 hold on
