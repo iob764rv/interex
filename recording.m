@@ -19,4 +19,4 @@ title('x(t)   [SIGNAL]')
 hold on
 plot(lag_max, r11_max, 'ro')
 grid on
-xlim([-8 8])
+xlim([-4 4])
