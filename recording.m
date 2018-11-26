@@ -7,7 +7,6 @@ x = v(1660 + n)';
 xlabel('Time (seconds)')
 
 figure(1)
-
 %% Plot in center 
 
 subplot(2, 1, 1)
