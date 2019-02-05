@@ -18,7 +18,13 @@ root=Tk()
 root.title("Link")
 #the number of words
 randomNum=random.randint(6,22)
+textOutline=Text(root, font=('Arial MS', 20))
 
 #Center
 x = (root.winfo_screenwidth() - root.winfo_reqwidth()) / 2
 y = (root.winfo_screenheight() - root.winfo_reqheight()) / 2
+
+
+
+def resetButton():
+    textOutline.delete('1.0', END)
