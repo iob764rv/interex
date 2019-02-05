@@ -16,3 +16,5 @@ pygame.mixer.music.load('audio.wav')
 
 root=Tk()
 root.title("Link")
+#the number of words
+randomNum=random.randint(6,22)
