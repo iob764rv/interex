@@ -30,3 +30,7 @@ def resetButton():
     textOutline.delete('1.0', END)
     
 def concat_pair(var1, var2):
+
+    
+    
+root.mainloop()
