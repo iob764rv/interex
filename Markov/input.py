@@ -1,4 +1,4 @@
-#chain of inputs
+#chain of inputs using Markov
 import numpy as np
 import threading
 import random
@@ -9,3 +9,7 @@ file2='input2.csv'
 
 text= open(file2, ).read()
 layout= textLower.lower().split()
+
+dictionaryText={}
+pygame.init()
+pygame.mixer.music.load('audio.wav')
