@@ -18,3 +18,7 @@ root=Tk()
 root.title("Link")
 #the number of words
 randomNum=random.randint(6,22)
+
+#Center
+x = (root.winfo_screenwidth() - root.winfo_reqwidth()) / 2
+y = (root.winfo_screenheight() - root.winfo_reqheight()) / 2
