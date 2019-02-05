@@ -13,3 +13,6 @@ layout= textLower.lower().split()
 dictionaryText={}
 pygame.init()
 pygame.mixer.music.load('audio.wav')
+
+root=Tk()
+root.title("Link")
