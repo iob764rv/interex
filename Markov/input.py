@@ -38,4 +38,5 @@ def runLoop():
     
 menubar = Menu(root)
 filemenu = Menu(menubar, tearoff=0)
+filemenu.add_command(label="Clear", command=resetButton)
 root.mainloop()
