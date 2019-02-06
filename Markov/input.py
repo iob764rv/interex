@@ -37,4 +37,5 @@ def runLoop():
 
     
 menubar = Menu(root)
+filemenu = Menu(menubar, tearoff=0)
 root.mainloop()
