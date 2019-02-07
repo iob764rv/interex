@@ -34,9 +34,9 @@ def concat_pair(var1, var2):
 def runLoop():
     root.mainloop()
     
-
     
 menubar = Menu(root)
 filemenu = Menu(menubar, tearoff=0)
 filemenu.add_command(label="Clear", command=resetButton)
+root.config(menu=menubar)
 root.mainloop()
