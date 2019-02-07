@@ -34,6 +34,10 @@ def concat_pair(var1, var2):
 def runLoop():
     root.mainloop()
     
+
+canvas = Canvas(root, width = 300, height = 300)   
+canvas.pack()
+    
     
 menubar = Menu(root)
 filemenu = Menu(menubar, tearoff=0)
