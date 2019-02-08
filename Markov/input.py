@@ -45,3 +45,5 @@ filemenu.add_command(label="Clear", command=resetButton)
 
 root.config(menu=menubar)
 root.mainloop()
+
+#while(True):
