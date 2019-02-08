@@ -48,3 +48,4 @@ root.config(menu=menubar)
 root.mainloop()
 
 #while(True):
+    #textOutline.get("1.0", END)
