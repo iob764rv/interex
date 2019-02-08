@@ -38,6 +38,7 @@ def runLoop():
 canvas = Canvas(root, width = 300, height = 300)   
 canvas.pack()
     
+    
 #menu
 menubar = Menu(root)
 filemenu = Menu(menubar, tearoff=0)
